@@ -168,7 +168,7 @@ p{
 
 .course-col{
     flex-basis: 31%;
-    background-color: #fff3f3;
+    background-color: #E6EAF0;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -184,6 +184,7 @@ h3{
 
 .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 @media screen and (max-width:700px){
@@ -193,6 +194,7 @@ h3{
 }
 
 /* ----- Campus ------------ */
+
 
 .campus{
     width: 80%;
@@ -261,6 +263,27 @@ h3{
     margin-bottom: 5%;
     text-align: center;
     background-color: #e6eaf0;
+    padding-bottom: 20px;
+    transition: 0.3s;
+}
+
+.facilities-cols:hover{
+    box-shadow: 1px 2px 10px black;
+    cursor: pointer;
+}
+
+.facilities-cols-inner{
+    padding: 0px 40px;
+
+}
+
+.facilities-cols-inner ul{
+    list-style-type: none;
+}
+
+.facilities-cols-inner ul li{
+    color: rgb(92, 92, 92);
+    font-size: 15.5px;
 }
 
 .facilities-cols img{
@@ -368,6 +391,7 @@ h3{
     width: 70%;
     text-align: center;
     align-items: center;
+    margin: auto;
 }
 
 .footer h4{
